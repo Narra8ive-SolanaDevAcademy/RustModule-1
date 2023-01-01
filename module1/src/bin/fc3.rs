@@ -10,6 +10,25 @@
 // * Use a match expression to determine which message to display
 // * Use an underscore (_) to match on any value
 
-fn main() {}
+fn main() {
+  let set = 3;
+  match set{
+    1=>{
+      println!("one");
+    }
+    2=>{
+      println!("two");
+    }
+    3=>{
+      println!("three");
+    }
+    4=>{
+      println!("four");
+    }
+    _=>{
+      println!("other number");
+    }
+  }
+}
 
 
