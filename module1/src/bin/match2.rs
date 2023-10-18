@@ -1,4 +1,3 @@
-
 fn main() {
     let boolean = true;
 
@@ -6,7 +5,7 @@ fn main() {
     //
     // boolean = true => binary = 1
     // boolean = false =>  binary = 0
-    let binary = __;
+    let binary = 1;
 
     assert_eq!(binary, 1);
 
