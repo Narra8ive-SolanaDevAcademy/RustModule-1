@@ -9,8 +9,13 @@
 // * Print the variable within the loop statement
 // * Use break to exit the loop
 
-
-
-
-
-fn main() {}
+fn main() {
+    let mut i = 1; //Defined mutable integer
+    loop {
+        println!("{}", i);
+        i += 1;
+        if i > 4 {
+            break;
+        }
+    }
+}
